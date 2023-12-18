@@ -1,4 +1,10 @@
-# Resource: chrisurf_hello_world
+---
+page_title: "chrisurf_hello_world Resource - terraform-provider-chrisurf"
+subcategory: ""
+description: |-
+---
+
+# Resource `chrisurf_hello_world`
 
 The `chrisurf_hello_world` resource allows you to manage a simple "Hello World" output. This resource is primarily for demonstration and educational purposes.
 
@@ -11,11 +17,10 @@ resource "chrisurf_hello_world" "example" {
 ```
 
 ## Argument Reference
-output - (Required) The output message to manage.
 
-## Attributes Reference
-In addition to all arguments above, the following attributes are exported:
+no arguments required
 
-id - The ID of the resource.
+## Attribute Reference
 
-
+**output** - (Required) The output message to manage.
+**id** - The ID of the resource.
