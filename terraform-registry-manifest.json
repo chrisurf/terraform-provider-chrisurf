@@ -1,0 +1,19 @@
+{
+  "version": "0.0.4",
+  "architectures": {
+    "freebsd_amd64": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_freebsd_amd64.zip",
+    "freebsd_386": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_freebsd_386.zip",
+    "freebsd_arm": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_freebsd_arm.zip",
+    "freebsd_arm64": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_freebsd_arm64.zip",
+    "windows_amd64": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_windows_amd64.zip",
+    "windows_386": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_windows_386.zip",
+    "windows_arm": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_windows_arm.zip",
+    "windows_arm64": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_windows_arm64.zip",
+    "linux_amd64": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_linux_amd64.zip",
+    "linux_386": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_linux_386.zip",
+    "linux_arm": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_linux_arm.zip",
+    "linux_arm64": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_linux_arm64.zip",
+    "darwin_amd64": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_darwin_amd64.zip",
+    "darwin_arm64": "https://github.com/chrisurf/terraform-provider-chrisurf/releases/download/v0.0.4/terraform-provider-chrisurf_v0.0.4_darwin_arm64.zip"
+  }
+}
