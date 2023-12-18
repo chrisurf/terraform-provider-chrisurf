@@ -13,7 +13,7 @@ Clone the repository and build the provider:
 
 ```bash
 git clone git@github.com:chrisurf/terraform-provider-chrisurf.git
-cd terraform-provider
+cd terraform-provider-chrisurf
 go build
 ```
 
@@ -55,11 +55,22 @@ Since this is a custom provider, you must configure Terraform to locate the prov
 For example:
 
 ```hcl
+# local testing
 terraform {
   required_providers {
     chrisurf = {
       source  = "localhost/providers/chrisurf"
       version = "0.1"
+    }
+  }
+}
+
+# terraform registry
+terraform {
+  required_providers {
+    chrisurf = {
+      source = "chrisurf/chrisurf"
+      version = "0.0.7"
     }
   }
 }

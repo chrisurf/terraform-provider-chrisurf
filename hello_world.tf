@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     chrisurf = {
-      source  = "localhost/providers/chrisurf"
-      version = "0.1"
+      source = "chrisurf/chrisurf"
+      version = "0.0.7"
     }
   }
 }
