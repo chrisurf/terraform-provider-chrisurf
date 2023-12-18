@@ -93,6 +93,14 @@ terraform apply
    go build
    ```
 
+## Publish Terraform Provider
+
+Run the script with the version number as an argument:
+
+```sh
+./generate-manifest.sh 1.0.0
+```
+
 ## Contributing
 
 Contributions to this provider are welcome. For major changes, please open an issue first to discuss what you would like to change.
