@@ -1,0 +1,43 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+*.vscode/
+
+# Terraform-specific
+.terraform/
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Ignore local .terraform directories
+**/.terraform/*
+
+# Ignore crash log files
+crash.log
+
+# Ignore executable files, as they should be built locally
+terraform-provider-chrisurf
+
+# Ignore build outputs
+bin/
+dist/
